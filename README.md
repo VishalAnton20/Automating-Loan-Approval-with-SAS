@@ -170,26 +170,26 @@
 
 ## 📊 EDA:
 ### 🏛 Data Sets Structure:
-![](https://raw.githubusercontent.com/VishalAnton20/loan-prediction-SAS-studio/main/Screenshot/Dataset%20Structure.png)
+![](https://raw.githubusercontent.com/VishalAnton20/Automating-Loan-Approval-with-SAS/main/Screenshot/Dataset%20Structure.png)
 
 ### ⚙ Training Data Set
 #### ▶ Univariate - Training:
 *   GENDER <br>
-![GENDER](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Univariate/Training_Univariate_Gender.png)<br>
+![GENDER](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Univariate/Training_Univariate_Gender.png)<br>
     - **13 LFI customers had an unidentified gender** due to missing values in the dataset.
     - Furthermore, the dataset has an **uneven distribution between male and female loan applicants**, with the percentage of male applicants is 81.36% (489 male applicants).
     - In comparison, the percentage of female applicants is only 18.64% (112 female applicants)
 <br><br>
 
 *   MARITAL_STATUS <br>
-![MARITAL_STATUS](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Univariate/Training_Univariate_MaritalStatus.png)<br>
+![MARITAL_STATUS](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Univariate/Training_Univariate_MaritalStatus.png)<br>
     - **Three loan applicants** in the training dataset **had an unknown marital status** due to missing values.
     - The dataset has an **uneven distribution between married and not married loan applicants**, with the percentage of married applicants is 65.14% (398 married applicants).
     - In comparison, the percentage of not married applicants is only 34.86% (213 not married applicants)
 <br><br>
 
 *   FAMILY_MEMBERS <br>
-![FAMILY_MEMBERS](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Univariate/Training_Univariate_FamilyMembers.png)<br>
+![FAMILY_MEMBERS](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Univariate/Training_Univariate_FamilyMembers.png)<br>
     - **15 loan applicants in the training dataset had an unidentified number of family members** due to missing values.
     - As many as 57.6% (345 applicants) have 0 family members, 17.03% (102 applicants) have one family member.
     - Moreover, as many as 16.86% (101 applicants) have two family members.
@@ -197,21 +197,21 @@
 <br><br>
 
 *   QUALIFICATION <br>
-![QUALIFICATION](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Univariate/Training_Univariate_Qualification.png)<br>
+![QUALIFICATION](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Univariate/Training_Univariate_Qualification.png)<br>
     - **There are no missing values** or no applicants with unidentified qualifications in the dataset.
     - The dataset has an uneven distribution between graduated and under graduated applicants, with the percentage of graduated applicants is 78.18% (480 graduated applicants).
     - In comparison, the percentage of under graduated applicants is only 21.82% (134 under graduated applicants).
 <br><br>
 
 *   EMPLOYMENT <br>
-![EMPLOYMENT](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Univariate/Training_Univariate_Employment.png)<br>
+![EMPLOYMENT](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Univariate/Training_Univariate_Employment.png)<br>
     - **32 loan applicants in the training dataset had an unknown employment status** due to missing values.
     - The dataset has an **uneven distribution between yes (employed) and no (unemployed) loan applicants**, with the percentage of no (unemployed) applicants is 85.91% (500 unemployed applicants).
     - While the percentage of not yes (employed) applicants is only 14.09% (82 employed applicants).
 <br><br>
 
 *   LOAN_HISTORY <br>
-![LOAN_HISTORY](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Univariate/Training_Univariate_LoanHistory.png)<br>
+![LOAN_HISTORY](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Univariate/Training_Univariate_LoanHistory.png)<br>
     - **50 loan applicants in the training dataset had an unidentified history of loan applicants** due to missing values.
     - As many as 57.6% (345 applicants) have 0 family members, 17.03% (102 applicants) have one family member.
     - Moreover, as many as 16.86% (101 applicants) have two family members.
@@ -219,55 +219,55 @@
 <br><br>
 
 *   LOAN_LOCATION <br>
-![LOAN_LOCATION](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Univariate/Training_Univariate_LoanLocation.png)<br>
+![LOAN_LOCATION](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Univariate/Training_Univariate_LoanLocation.png)<br>
     - **There are no missing values or no applicants with unidentified qualifications** in the dataset.
     - As many as 32.9% (202 applicants) live in the city, 37.95% (233 applicants) live in the town. 
     - Moreover, as many as 29.15% (179 applicants) live in the village
 <br><br>
 
 *   LOAN_APPROVAL_STATUS <br>
-![LOAN_APPROVAL_STATUS](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Univariate/Training_Univariate_LoanApprovalStatus.png)<br>
+![LOAN_APPROVAL_STATUS](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Univariate/Training_Univariate_LoanApprovalStatus.png)<br>
     - **There are no missing values or no applicants that had unidentified loan approval status** in the dataset.
     - The dataset has an uneven distribution between approved loans (Y) and rejected loans (N), with the percentage of the approved loan (Y) is 68.73% (422 applicants).
     - The percentage of the rejected loan (N) is 31.27% (192 applicants).
 <br><br>
 
 *   CANDIDATE_INCOME <br>
-![CANDIDATE_INCOME](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Univariate/Training_Univariate_CandidateIncome.png)<br>
+![CANDIDATE_INCOME](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Univariate/Training_Univariate_CandidateIncome.png)<br>
     - It can be seen that there are no missing values or no applicants that had unidentified income in the dataset
     - Both the histogram, mean and median values indicate that the data distribution for this variable is positively skewed, with the median 3,812.5 and mean 5,403.46
     - Based on the standard deviation, mean, and maximum value, it can be determined that this variable contains extreme outliers because the maximum value is greater than the (mean + 3x standard deviation) value.
 <br><br>
 
 *   GUARANTEE_INCOME <br>
-![GUARANTEE_INCOME](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Univariate/Training_Univariate_GuaranteeIncome.png)<br>
+![GUARANTEE_INCOME](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Univariate/Training_Univariate_GuaranteeIncome.png)<br>
     - There are no missing values or no applicants that had unidentified guarantee income in the dataset.
     - Both the histogram, mean and median values indicate that the data distribution for this variable is positively skewed, with the median 1188.50 and mean 1621.25
     - Based on the standard deviation, mean, and maximum value, it can be determined that this variable contains extreme outliers because the maximum value is greater than the (mean + 3x standard deviation) value.
 <br><br>
 
 *   LOAN_AMOUNT <br>
-![LOAN_AMOUNT](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Univariate/Training_Univariate_LoanAmount.png)<br>
+![LOAN_AMOUNT](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Univariate/Training_Univariate_LoanAmount.png)<br>
     - There are 22 missing values.
     - Both the histogram, mean and median values indicate that the data distribution for this variable is positively skewed, with the median 128 and mean 146.4121622
 <br><br>
 
 *   LOAN_DURATION <br>
-![LOAN_DURATION](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Univariate/Training_Univariate_LoanDuration.png)<br>
+![LOAN_DURATION](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Univariate/Training_Univariate_LoanDuration.png)<br>
     - It can be seen that **there are 14 missing values**.
     - Both the histogram, mean and median values indicate that the data distribution for this variable is positively skewed, with the median 360 and mean 342
 <br><br>
 
 #### ▶ Bivariate - Training:
 *   GENDER - MARITAL_STATUS <br>
-![GENDER - MARITAL_STATUS](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_Gender_MaritalStatus.png)<br>
+![GENDER - MARITAL_STATUS](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_Gender_MaritalStatus.png)<br>
     - Most male applicants are already married (92.01%). In contrast, the majority of female applicants are not yet married (38.01%).
     - The percentage of female applicants who are already married is only 7.99%, while the percentage of male applicants who are not yet married is 61.90%.
     - There are 16 missing data due to three missing values for married status and thirteen missing values for gender.
 <br><br>
 
 *   FAMILY_MEMBERS - QUALIFICATION <br>
-![FAMILY_MEMBERS - QUALIFICATION](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_FamilyMembers_Qualification.png)<br>
+![FAMILY_MEMBERS - QUALIFICATION](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_FamilyMembers_Qualification.png)<br>
     - The majority of loan applicants who are graduates do not have any family members (58.64%).
     - Most loan applicants who are undergraduates do not have any family members (53.85%).
     - Graduates with one family member are 17.27%, while undergraduates with one family member are 16.15%.
@@ -277,7 +277,7 @@
 <br><br>
 
 *   EMPLOYMENT - LOAN_HISTORY <br>
-![EMPLOYMENT - LOAN_HISTORY](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_Employment_LoanHistory.png)<br>
+![EMPLOYMENT - LOAN_HISTORY](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_Employment_LoanHistory.png)<br>
     - It can be seen that 86% of unemployed loan applicants have good loan history.
     - The loan applicants who are also unemployed have bad loan history with a percentage of 86.36%.
     - It can be seen that the percentage of applicants that are employed and have bad loan history is 13.64%, and the percentage of applicants that are employed and have good loan history is 14.00%. 
@@ -285,7 +285,7 @@
 <br><br>
 
 *   LOAN_LOCATION - LOAN_APPROVAL_STATUS <br>
-![LOAN_LOCATION - LOAN_APPROVAL_STATUS](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_LoanLocation_LoanApprovalStatus.png)<br>
+![LOAN_LOCATION - LOAN_APPROVAL_STATUS](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_LoanLocation_LoanApprovalStatus.png)<br>
     - Most loan applications that got rejected belong to applicants from cities and villages, with both percentages being 35.94%.
     - It can be seen that the percentages of rejected loan applications from towns are lower than loan applications from cities and villages (28.13%).
     - It can be seen that most loan applications that got accepted are from a town with a percentage of 42.42%.
@@ -294,7 +294,7 @@
 <br><br>
 
 *   GENDER - LOAN_APPROVAL_STATUS <br>
-![GENDER - LOAN_APPROVAL_STATUS](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_Gender_LoanApprovalStatus.png)<br>
+![GENDER - LOAN_APPROVAL_STATUS](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_Gender_LoanApprovalStatus.png)<br>
     - It can be seen that the majority of approved loan applications comes from male applicants, with a percentage of 81.88%.
     - It can also be seen that most rejected loan applications come from male applicants, with 80.21%.
     - The percentage of female applicants with approved loan applications is 18.12%. The percentage of female applicants with rejected loan applications is 19.79%
@@ -302,14 +302,14 @@
 <br><br>
 
 *   LOAN_APPROVAL_STATUS - CANDIDATE_INCOME <br>
-![LOAN_APPROVAL_STATUS - CANDIDATE_INCOME](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_LoanApprovalStatus_CandidateIncome.png)<br>
+![LOAN_APPROVAL_STATUS - CANDIDATE_INCOME](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_LoanApprovalStatus_CandidateIncome.png)<br>
     - It can be seen from the box plot that there are lots of outliers in candidate income.
     - For both box plots, it can be seen that the distribution is positively skewed because the median value is closer to the lower quartile.
     - The table shows that both maximum values for approved and rejected loan applications are more significant than the mean value, indicating extreme outliers in the dataset.
 <br><br>
 
 *   LOAN_APPROVAL_STATUS - GUARANTEE_INCOME <br>
-![LOAN_APPROVAL_STATUS - GUARANTEE_INCOME](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_LoanApprovalStatus_GuaranteeIncome.png)<br>
+![LOAN_APPROVAL_STATUS - GUARANTEE_INCOME](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_LoanApprovalStatus_GuaranteeIncome.png)<br>
     - It can be seen from the box plot that there are lots of outliers in guarantee income
     - For rejected loan applications box plots, it can be seen that the distribution is positively skewed because the median value is closer to the lower quartile.
     - For the approved loan applications box plot, it can be seen that the distribution is slightly negatively skewed because the median value is slightly closer to the top quartile.
@@ -317,20 +317,20 @@
 <br><br>
 
 *   LOAN_APPROVAL_STATUS - LOAN_AMOUNT <br>
-![LOAN_APPROVAL_STATUS - LOAN_AMOUNT](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_LoanApprovalStatus_LoanAmount.png)<br>
+![LOAN_APPROVAL_STATUS - LOAN_AMOUNT](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_LoanApprovalStatus_LoanAmount.png)<br>
     - It can be seen from the box plot that there are lots of outliers in the loan amount.
     - For both loan applications box plots, it can be seen that the distribution is slightly positively skewed because the median value is slightly closer to the lower quartile.
     - The table shows that both maximum values for approved and rejected loan applications are more significant than the mean value, indicating extreme outliers in the dataset.
 <br><br>
 
 *   CANDIDATE_INCOME - GUARANTEE_INCOME <br>
-![CANDIDATE_INCOME - GUARANTEE_INCOME](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_CandidateIncome_GuaranteeIncome.png)<br>
+![CANDIDATE_INCOME - GUARANTEE_INCOME](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_CandidateIncome_GuaranteeIncome.png)<br>
     - It can be seen that from the tables and scatter plot that there is a negative correlation with -0.11660.
     - The correlation coefficient is significant at the 95 per cent confidence interval, as it has a p-value of 0.0038, indicating that it holds for the whole population.
 <br><br>
 
 *   LOAN_AMOUNT - LOAN_DURATION <br>
-![LOAN_AMOUNT - LOAN_DURATION](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_LoanAmount_LoanDuration.png)<br>
+![LOAN_AMOUNT - LOAN_DURATION](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Training/Bivariate/Training_Bivariate_LoanAmount_LoanDuration.png)<br>
     - It can be seen that from the tables and scatter plot that there is a positive correlation between candidate income and guarantee income 0.03945.
     - This correlation coefficient between loan amount and loan duration is not significant at the 95 per cent confidence interval (p-value = 0.3438).
 <br><br>
@@ -338,69 +338,69 @@
 ### ⚒ Testing Data Set
 #### ▶ Univariate - Testing:
 *   GENDER <br>
-![GENDER](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_Gender.png)<br>
+![GENDER](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_Gender.png)<br>
     - **11 LFI customers had an unidentified gender** due to missing values in the dataset.
     - The dataset has an **uneven distribution between male and female loan applicants**, with the percentage of male applicants is 80.34% (286 male applicants) and the percentage of female applicants is only 19.66% (70 female applicants).
 <br><br>
 
 *   MARITAL_STATUS <br>
-![MARITAL_STATUS](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_MaritalStatus.png)<br>
+![MARITAL_STATUS](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_MaritalStatus.png)<br>
     - There are no missing values.
     - The dataset has an uneven distribution between married and not married loan applicants, with the percentage of married applicants is 63.49% (233 married applicants) and the percentage of not married applicants is only 36.51% (134 not married applicants).
 <br><br>
 
 *   FAMILY_MEMBERS <br>
-![FAMILY_MEMBERS](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_FamilyMembers.png)<br>
+![FAMILY_MEMBERS](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_FamilyMembers.png)<br>
     - **10 loan applicants in the testing dataset had an unidentified number of family members** due to missing values.
     - As many as 56.02% (200 applicants) have 0 family members, 16.25% (58 applicants) have one family member, 16.53% (59 applicants) have two family members, and 11.20% (40 applicants) have three or more family members.
 <br><br>
 
 *   QUALIFICATION <br>
-![QUALIFICATION](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_Qualification.png)<br>
+![QUALIFICATION](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_Qualification.png)<br>
     - **There are no missing values or no applicants with unidentified qualifications** in the dataset.
     - The dataset has an uneven distribution between graduated and under graduated applicants, with the percentage of graduated applicants is 77.11% (283 graduated applicants).
     - The percentage of under graduated applicants is only 22.89% (84 under graduated applicants).
 <br><br>
 
 *   EMPLOYMENT <br>
-![EMPLOYMENT](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_Employment.png)<br>
+![EMPLOYMENT](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_Employment.png)<br>
     - **23 loan applicants in the training dataset had an unknown employment status** due to missing values.
     - The dataset has an uneven distribution between yes (employed) and no (unemployed) loan applicants, with the percentage of no (unemployed) applicants is 89.24% (307 unemployed applicants) while the percentage of not yes (employed) applicants is only 10.76% (37 employed applicants).
 <br><br>
 
 *   LOAN_HISTORY <br>
-![LOAN_HISTORY](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_LoanHistory.png)<br>
+![LOAN_HISTORY](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_LoanHistory.png)<br>
     - **29 loan applicants in the training dataset had an unidentified history of loan applicants** due to missing values.
     - The dataset has an uneven distribution between an applicant that has good loan history (1) and an applicant that has bad loan history (0), with the percentage of applicants that have bad loan history (0) is only 17.46% (59 applicants).
     - The percentage of applicants with good loan history (1) is 82.54% (279 applicants).
 <br><br>
 
 *   LOAN_LOCATION <br>
-![LOAN_LOCATION](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_LoanLocation.png)<br>
+![LOAN_LOCATION](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_LoanLocation.png)<br>
     - There are no missing values or applicants with unidentified loan locations in the dataset.
     - As many as 38.15% (140 applicants) live in the city, 31.61% (116 applicants) live in the town, and 30.25% (111 applicants) live in the village.
 <br><br>
 
 *   CANDIDATE_INCOME <br>
-![CANDIDATE_INCOME](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_CandidateIncome.png)<br>
+![CANDIDATE_INCOME](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_CandidateIncome.png)<br>
     - It can be seen that there are no missing values or no applicants that had unidentified income in the dataset
     - Both the histogram, mean and median values indicate that the data distribution for this variable is positively skewed, with the median 3,786 and mean 4,805.6.
 <br><br>
 
 *   GUARANTEE_INCOME <br>
-![GUARANTEE_INCOME](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_GuaranteeIncome.png)<br>
+![GUARANTEE_INCOME](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_GuaranteeIncome.png)<br>
     - It can be seen that there are no missing values or no applicants that had unidentified guarantee income in the dataset.
     - Both the histogram, mean and median values indicate that the data distribution for this variable is positively skewed, with the median 1025 and mean 1569.58.
 <br><br>
 
 *   LOAN_AMOUNT <br>
-![LOAN_AMOUNT](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_LoanAmount.png)<br>
+![LOAN_AMOUNT](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_LoanAmount.png)<br>
     - It can be seen that there are five missing values.
     - Both the histogram, mean and median values indicate that the data distribution for this variable is positively skewed, with the median 125 and mean 136.1325967.
 <br><br>
 
 *   LOAN_DURATION <br>
-![LOAN_DURATION](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_LoanDuration.png)<br>
+![LOAN_DURATION](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Univariate/Testing_Univariate_LoanDuration.png)<br>
     - It can be seen that there are six missing values.
     - Both the histogram, mean and median values indicate that the data distribution for this variable is positively skewed, with the median 360 and mean 342.5373961.
 <br><br>
@@ -408,14 +408,14 @@
 
 #### ▶ Bivariate - Testing:
 *   GENDER - MARITAL_STATUS <br>
-![GENDER - MARITAL_STATUS](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_Gender_MaritalStatus.png)<br>
+![GENDER - MARITAL_STATUS](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_Gender_MaritalStatus.png)<br>
     - It can be seen that in both the frequency table and the mosaic plot, the majority of male applicants are already married (88.70%), while the majority of female applicants are not yet married (34.92%).
     - The percentage of female applicants who are already married is only 11.30%, while the percentage of male applicants who are not yet married is 65.08%.
     - There are 11 missing data due to 11 missing values for gender
 <br><br>
 
 *   FAMILY_MEMBERS - QUALIFICATION <br>
-![FAMILY_MEMBERS - QUALIFICATION](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_FamilyMembers_Qualification.png)<br>
+![FAMILY_MEMBERS - QUALIFICATION](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_FamilyMembers_Qualification.png)<br>
     - It can be seen that the majority of loan applicants who are graduates do not have any family members (58.39%).
     - Most loan applicants who are undergraduates do not have any family members (48.19%).
     - Graduates with one family member are 17.15%, while undergraduates with one family member are 13.25%.
@@ -425,14 +425,14 @@
 <br><br>
 
 *   EMPLOYMENT - LOAN_HISTORY <br>
-![EMPLOYMENT - LOAN_HISTORY](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_Employment_LoanHistory.png)<br>
+![EMPLOYMENT - LOAN_HISTORY](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_Employment_LoanHistory.png)<br>
     - It can be seen that 87.59% of unemployed loan applicants have good loan history. The loan applicants who are also unemployed have a bad loan history with 96%.
     - It can be seen that the percentage of applicants that are employed and have bad loan history is 4%, and the percentage of applicants that are employed and have good loan history is 12.41%.
     - There are 51 missing values because there are 23 missing values in employment and 28 missing values in loan history.
 <br><br>
 
 *   GENDER - QUALIFICATION <br>
-![GENDER - QUALIFICATION](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_Gender_Qualification.png)<br>
+![GENDER - QUALIFICATION](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_Gender_Qualification.png)<br>
     - It can be seen that most male undergraduate loan applicants are higher than graduate male loan applicants.
     - Undergraduate males have a percentage of 82.50%, while male graduates have a percentage of 79.71%.
     - Graduate women have a percentage of 20.29%, while undergraduate women have a percentage of 17.50%.
@@ -440,7 +440,7 @@
 <br><br>
 
 *   GENDER - LOAN_LOCATION <br>
-![GENDER - LOAN_LOCATION](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_Gender_LoanLocation.png)<br>
+![GENDER - LOAN_LOCATION](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_Gender_LoanLocation.png)<br>
     - It can be seen that most male applicants come from the village with a percentage of 83.33%.
     - Male applicants come from the city, only 81.75% and male applicants come from town are 75.68%.
     - The majority of female applicants come from a town with a percentage of 24.32%.
@@ -449,7 +449,7 @@
 <br><br>
 
 *   FAMILY_MEMBERS - LOAN_LOCATION<br>
-![FAMILY_MEMBERS - LOAN_LOCATION](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_FamilyMembers_LoanLocation.png)<br>
+![FAMILY_MEMBERS - LOAN_LOCATION](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_FamilyMembers_LoanLocation.png)<br>
     - It can be seen that the majority of applicants who do not have family members come from villages with a percentage of 57.27%.
     - Applicants who do not have family members from the town have 55.86%, and those from the city have a percentage of 55.15%.
     - Applicants who have one family members majority come from a town with a percentage of 18.02%.
@@ -462,7 +462,7 @@
 <br><br>
 
 *   GENDER - CANDIDATE_INCOME <br>
-![GENDER - CANDIDATE_INCOME](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_Gender_CandidateIncome.png)<br>
+![GENDER - CANDIDATE_INCOME](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_Gender_CandidateIncome.png)<br>
     - It can be seen from the box plot that there are lots of outliers in candidate income.
     - It can be seen that candidate income for male are much higher (mean = 4932.86) compare to female (mean = 4163.60).
     - For both box plots, it can be seen that the distribution is positively skewed because the median value is closer to the lower quartile.
@@ -470,7 +470,7 @@
 <br><br>
 
 *   MARITAL_STATUS - GUARANTEE_INCOME <br>
-![MARITAL_STATUS - GUARANTEE_INCOME](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_MaritalStatus_GuaranteeIncome.png)<br>
+![MARITAL_STATUS - GUARANTEE_INCOME](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_MaritalStatus_GuaranteeIncome.png)<br>
     - It can be seen from the box plot that there are lots of outliers in guarantee income.
     - The guaranteed income is higher for married applicants (mean = 1627.12) than unmarried applicants (mean = 1459.53).
     - For not married applicants box plots, it can be seen that the distribution is positively skewed because the median value is closer to the lower quartile.
@@ -479,7 +479,7 @@
 <br><br>
 
 *   EMPLOYMENT - LOAN_AMOUNT <br>
-![EMPLOYMENT - LOAN_AMOUNT](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_Employment_LoanAmount.png)<br>
+![EMPLOYMENT - LOAN_AMOUNT](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_Employment_LoanAmount.png)<br>
     - It can be seen from the box plot that there are lots of outliers in the loan amount.
     - The loan amount is more significant for employed applicants (mean = 150.1891892) than for unemployed applicants (mean = 133.7218543).
     - It can be seen that the distribution is slightly positively skewed because the median value is slightly closer to the lower quartile.
@@ -487,19 +487,19 @@
 <br><br>
 
 *   CANDIDATE_INCOME - GUARANTEE_INCOME <br>
-![CANDIDATE_INCOME - GUARANTEE_INCOME](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_CandidateIncome_GuaranteeIncome.png)<br>
+![CANDIDATE_INCOME - GUARANTEE_INCOME](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_CandidateIncome_GuaranteeIncome.png)<br>
     - It can be seen that from the tables and scatter plot that there is a negative correlation between candidate income and guarantee income with -0.11033.
     - This correlation coefficient is significant at the 95 per cent confidence interval, as it has a p-value of 0.0346.
 <br><br>
 
 *   LOAN_AMOUNT - LOAN_DURATION <br>
-![LOAN_AMOUNT - LOAN_DURATION](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_LoanAmount_LoanDuration.png)<br>
+![LOAN_AMOUNT - LOAN_DURATION](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_LoanAmount_LoanDuration.png)<br>
     - It can be seen that from the tables and scatter plot that there is a positive correlation between candidate income and guarantee income 0.09495.
     - The correlation coefficient is not significant at the 95 per cent confidence interval, with a p-value of 0.0736.
 <br><br>
 
 *   CANDIDATE_INCOME - LOAN_DURATION <br>
-![CANDIDATE_INCOME - LOAN_DURATION](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_CandidateIncome_LoanDuration.png)<br>
+![CANDIDATE_INCOME - LOAN_DURATION](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Testing/Bivariate/Testing_Bivariate_CandidateIncome_LoanDuration.png)<br>
     - It can be seen that from the tables and scatter plot that there is a positive correlation between candidate income and loan duration 0.02325.
     - The correlation coefficient is not significant at the 95 per cent confidence interval, with a p-value of 0.6598.
 <br><br>
@@ -567,28 +567,28 @@
 
 ## 👨‍💻 Logistic Regression Result:
 ### ▶ Summary of Logistic Regression:
-![LR - 1](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Logistic%20Regression%20Output%20-%201.png)<br>
+![LR - 1](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Logistic%20Regression%20Output%20-%201.png)<br>
     👉 The dataset on which the model was built has been correctly cleaned. <br>
     👉 There are no more missing values (the number of observations reads and used is the same enabling the model to use every observation in the dataset). <br>
     👉 The response profile reveals a highly unbalanced percentage between the two classes within the dependent variable, loan approval status, with a ratio of about 1:2 between N and Y. <br>
-![LR - 2](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Logistic%20Regression%20Output%20-%202.png)<br>
+![LR - 2](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Logistic%20Regression%20Output%20-%202.png)<br>
     👉 The Convergence Status of the Model is “Satisfied,” and the AIC value is smaller than SC. <br>
     👉 These two examples demonstrate that the Logistic Regression Model is an effective predictor. <br>
-![LR - 3](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Logistic%20Regression%20Output%20-%203.png)<br>
+![LR - 3](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Logistic%20Regression%20Output%20-%203.png)<br>
     👉 It can be seen that marital status, loan history, and loan location has a significant correlation to loan approval status since the p-value is less than 0.05. <br>
-![LR - 4](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Logistic%20Regression%20Output%20-%204.png)<br>
+![LR - 4](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Logistic%20Regression%20Output%20-%204.png)<br>
     👉 The p-value column “Pr > ChiSq” indicates that not all variables in the model are significant. <br>
     👉 A p-value of less than 0.05 indicates that the variable significantly affects loan approval status variation. <br>
     👉 Loan location and marital status impact loan approval choices. <br>
     👉 It can be observed that work status and gender have little impact on loan approval results. <br>
 
 ### ▶ Logistic Regression Model Output:
-![LR Model Output](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Logistic%20Regression%20Model%20Output.png)<br>
+![LR Model Output](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Logistic%20Regression%20Model%20Output.png)<br>
     👉 There are extra columns at the end of the dataset and the standard variables. <br>
     👉 Each column contains an estimated result from the model together with the estimated probability. <br>
     
 ### ⚠ Prediction Output:
-![Prediction Output](https://github.com/VishalAnton20/loan-prediction-SAS-studio/blob/main/Screenshot/Prediction%20Output.png)<br>
+![Prediction Output](https://github.com/VishalAnton20/Automating-Loan-Approval-with-SAS/blob/main/Screenshot/Prediction%20Output.png)<br>
     👉 There is 1 new column showing the results of the status prediction output from the loan approval. <br>
     👉 In addition, in addition to the new column that has been created, there is a probability of the loan application being rejected (N) and a probability of the loan application being accepted (Y).
 <br><br>
